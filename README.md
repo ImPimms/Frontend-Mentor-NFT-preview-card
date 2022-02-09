@@ -25,12 +25,12 @@ Users should be able to:
 - (I attempted to re-create the challenge as best as I could with my current knowledge of HTML and CSS)
 
 ### Screenshot
+![screenshot](https://user-images.githubusercontent.com/68731496/153133486-f289ad07-0084-42ee-94c3-048c4a8085f0.jpg)
 
-![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ImPimms/Frontend-Mentor-NFT-preview-card)
+- Solution URL: [GitHub link](https://github.com/ImPimms/Frontend-Mentor-NFT-preview-card)
 
 ## My process
 
@@ -52,5 +52,5 @@ Keep attempting Frontend Mentor challenges and continue my online education. Thi
 
 ## Author
 
-- GitHub - [Add your name here](https://github.com/ImPimms)
+- GitHub - [ImPimms](https://github.com/ImPimms)
 - Frontend Mentor - [@ImPimms](https://www.frontendmentor.io/profile/ImPimms)
