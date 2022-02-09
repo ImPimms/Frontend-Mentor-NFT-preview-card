@@ -31,6 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub link](https://github.com/ImPimms/Frontend-Mentor-NFT-preview-card)
+- Live URL: [GitHub Pages link](https://impimms.github.io/Frontend-Mentor-NFT-preview-card/)
 
 ## My process
 
