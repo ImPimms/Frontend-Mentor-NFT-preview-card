@@ -1,0 +1,146 @@
+:root {
+  /* Text Colors */
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  /* Main BG color */
+  --Very-dark-blue: hsl(217, 54%, 11%);
+  /* Card BG color */
+  --Darker-blue: hsl(216, 50%, 16%);
+  /* Line color */
+  --Dark-blue: hsl(215, 32%, 27%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Very-dark-blue);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--Very-dark-blue);
+  display: grid;
+  place-items: center;
+}
+
+.card-wrapper {
+  width: 20rem;
+  height: 36rem;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-color: var(--Darker-blue);
+  border-radius: 0.8rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-image {
+  position: relative;
+  width: 100%;
+}
+
+.nft-image {
+  display: block;
+  border-radius: 1rem;
+  height: 18rem;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 255, 247, 0.644); /* cyan see-through */
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  border-radius: 1rem;
+}
+
+.card-image:hover .overlay {
+  opacity: 0.3;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  margin: 2rem 0;
+}
+
+h1:hover {
+  color: var(--Cyan);
+}
+
+p {
+  font-size: 16px;
+  color: var(--Soft-blue);
+}
+
+.top-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.text-ethereum {
+  color: var(--Cyan);
+  margin-right: 6rem;
+}
+
+hr {
+  height: 2.5px;
+  width: 100%;
+  border-color: var(--Dark-blue);
+}
+
+.bottom-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.avatar {
+  height: 2rem;
+  width: 2rem;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1.6px;
+  border-color: white;
+  margin-right: 0.5rem;
+}
+
+.creator-name {
+  font-size: 14px;
+  color: white;
+  margin-left: 0.2rem;
+}
+
+.creator-name:hover {
+  color: var(--Cyan);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
